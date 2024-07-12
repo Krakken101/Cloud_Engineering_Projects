@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = htmlspecialchars($_POST['password']);
  
     // For demonstration purposes, we'll use hardcoded credentials
-    $valid_username = "dumfeh";
-    $valid_password = "@dumfeh0793@";
+    $valid_username = "user";
+    $valid_password = "pass";
  
     if ($username == $valid_username && $password == $valid_password) {
         echo '<div style="text-align: center;">
